@@ -2,7 +2,7 @@
 
 Task1:  1)git branch architecture;
 	2)git checkout architecture;
-	3) create files - touch(створити файл) and foldes - mkdir(створити папку);
+	3) create files - |touch| and foldes - |mkdir|;
 	4) git commit -m "added file and folders";
 	5) added files at assets/ and added empty file at uploads/;
 	6) commit and push;

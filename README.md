@@ -1,7 +1,7 @@
 # 6-vcs-advanced
 
-Task1:  1) git branch architecture;
-	2) git checkout architecture;
+Task1:  1) git branch architecture
+	2) git checkout architecture
 	3) mkdir uploads
 	4) mkdir assets
 	5) touch index.html
@@ -12,31 +12,33 @@ Task1:  1) git branch architecture;
 	10) touch uploads/test.txt
 	11) git status
 	12) git add .
-	13) git commit -m "added file and folders";
-	14) git push origin architecture;
-	15) touch .gitignore; (edited him -> "uploads/*.*);
-	16) git add .
-	17) git commit -m "add .gitignore"
-	18) git push origin architecture;
-	19) git checkout master;
-	20) git merge architecture;
-	21) git push origin :architecture.
+	13) git commit -m "added file and folders"
+	14) git push origin architecture
+	15) touch .gitignore
+	16) echo "uploads/*.*" > .gitignore
+	17) git add .
+	18) git commit -m "add .gitignore"
+	19) git push origin architecture
+	20) git checkout master
+	21) git merge architecture
+	22) git push origin :architecture
 
 Task2:  1)touch test1.txt
 	2)git add .
-	3)git commit -m "added test1.txt" (master);
-	4)git branch Vitalii;
+	3)git commit -m "added test1.txt" (master)
+	4)git branch Vitalii
 	5)touch test2.txt
 	6)git add .
-	7)git commit -m "added test2.txt"(master);
-	8)git checkout Vitalii;
+	7)git commit -m "added test2.txt"(master)
+	8)git checkout Vitalii
 	9)git rebase master
-	10)edited test1.txt & test2.txt
-	11)git add .
-	12)git commit -m "edited test1 & test2;
-	13)git checkout master
-	14)git merge vitalii
-	15)git branch -b vitalii
+	10)echo "1234567890" > test1.txt
+	11)echo "0987654321" > test2.txt
+	12)git add .
+	13)git commit -m "edited test1 & test2"
+	14)git checkout master
+	15)git merge vitalii
+	16)git branch -b vitalii
 
 Task3:  1)touch test.txt
 	2)git add .
